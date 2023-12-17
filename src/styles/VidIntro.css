@@ -1,0 +1,12 @@
+.fade-in {
+    opacity: 0;
+    visibility: hidden; /* You can use 'hidden' or 'collapse' to hide the element initially */
+    transition: opacity 3s ease-in; /* Set the duration and easing function */
+  }
+  
+  /* Optionally, you can add a class to make the element visible, or change other styles when needed */
+  .fade-in-visible {
+    opacity: 1;
+    visibility: visible;
+  }
+   

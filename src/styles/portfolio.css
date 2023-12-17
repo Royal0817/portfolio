@@ -1,0 +1,64 @@
+#portfolio {
+  height: 100vh
+}
+.portfolio_container {
+
+}
+
+.portfolio_item {
+
+}
+
+.portfolio_item-img {
+ 
+}
+
+.portfolio_item h3 {
+
+}
+
+.portfolio_body h3{
+
+}
+
+.portfolio_body a.btn.button_style {
+    
+}
+
+img {
+    height: 100px;
+    width: auto;
+}
+
+/* ---------------- medium sized screens --------------------------*/
+@media screen and (max-width: 1024px){
+    /* .portfolio_container{
+        
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+
+    .portfolio_header {
+        margin-top: 40rem;
+    }
+
+    .portfolio_body a.btn.button_style {
+        margin-left: 6rem;
+    }
+
+     */
+  }
+  
+  /* ---------------- small sized screens --------------------------*/
+  
+  @media screen and (max-width: 600px){
+    /* .portfolio_container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    #portfolio {
+        margin-top: 25rem;
+    }
+     */
+  }

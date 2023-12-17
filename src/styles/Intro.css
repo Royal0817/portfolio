@@ -1,0 +1,28 @@
+#Intro{
+    height: 120vh;
+    margin: 2rem;   
+}
+
+.background {
+    height: 75vh; 
+    width: 75vh;
+    position: relative;
+    left: 25rem;
+    top: 8rem;
+    font-size: 1.2rem; 
+}
+
+/* --------------- small screens ------------------- */
+@media screen and (max-width: 600px) {
+    #intro {
+        margin: 0;
+    }
+    .background {
+        height: 75vh; 
+        width: 100%;
+        position: relative;
+        left: 0rem;
+        top: 10rem;
+        font-size: 1.2rem; 
+    }
+}

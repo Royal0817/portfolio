@@ -1,0 +1,130 @@
+#services {
+    height: 110vh;
+}
+
+h1.service-header {
+  font-size: 2.7rem;
+  display: flex;
+  justify-content: center;
+}
+
+.services-container {
+  display: flex;
+} 
+
+.container1,
+.container2,
+.container3 {
+    width: 25%;
+    margin: 3rem;
+}
+
+
+.container1 {
+  transform: translateX(-110%);
+  transition: transform 1s ease-in;
+} 
+
+h4.platforms {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.container3 {
+  margin-left: 6rem;
+  transform: translateX(110%);
+  transition: transform 1s ease-in;  
+} 
+
+li {
+  margin-top: 2.5rem;
+  height: 1.9rem;
+  display: flex;
+  justify-content: center;
+  background-color: #0f0f1a; /* Dark green background color for space theme */
+  border: 1px solid #001f4d; /* pipe effect*/
+  border-radius: 5px;
+  padding: 7.5px 15px; 
+  box-shadow: 5px 5px 15px #051019, -5px -5px 15px #13212b; /* Box shadow for neumorphic effect with space theme */
+  transition: box-shadow 0.3s ease-in-out; /* Transition for smooth hover effect */
+
+}
+
+.Ai {
+  font-size: .9rem;
+} 
+
+.container1.active {
+    transform: translateX(-0%);
+  }
+  
+.container3.active {
+    transform: translateX(-0%);
+  }
+
+h3 { 
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+
+.grid-item {
+  display: flex;
+  margin-left: 5rem;
+  
+}
+
+.grid-item > img {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  margin: 1rem;
+}
+
+
+
+
+
+/* ---------------- medium sized screens --------------------------*/
+@media screen and (max-width: 1024px){
+   
+}
+
+     
+   
+   
+ /* ---------------- small sized screens --------------------------*/
+   
+   @media screen and (max-width: 600px){
+     #services { 
+      display: none;
+      /* height: auto;
+      margin-top: -70rem; */
+     }
+
+     .services-container {
+      display: flex;
+  
+     }
+
+     .container2 {
+
+     }
+
+     .services-offered {
+      font-size: 1rem;
+     }
+
+     .software-group {
+      visibility: hidden;
+     }
+
+     .grid-item {
+ 
+     }
+
+
+}
