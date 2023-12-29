@@ -7,11 +7,16 @@
 .contact_container{
     width: 33rem;
 }
+
 .contact_option {
     padding: 1.2rem;
     border: 1px solid transparent;
 }
 
+.contact_header {
+    font-size: 1.2rem;
+}
+ 
 .email {
     display: flex;
     justify-content: center; 
@@ -143,6 +148,7 @@ background: none;
     .btn-container {
         display: block;
         gap: 3rem; 
+        
     }
     .btn span {
         width: 10rem;

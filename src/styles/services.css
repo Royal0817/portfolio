@@ -42,12 +42,12 @@ li {
   height: 1.9rem;
   display: flex;
   justify-content: center;
-  background-color: #0f0f1a; /* Dark green background color for space theme */
-  border: 1px solid #001f4d; /* pipe effect*/
+  background-color: #0f0f1a; 
+  border: 1px solid #001f4d;
   border-radius: 5px;
   padding: 7.5px 15px; 
-  box-shadow: 5px 5px 15px #051019, -5px -5px 15px #13212b; /* Box shadow for neumorphic effect with space theme */
-  transition: box-shadow 0.3s ease-in-out; /* Transition for smooth hover effect */
+  box-shadow: 5px 5px 15px #051019, -5px -5px 15px #13212b; 
+  transition: box-shadow 0.3s ease-in-out;
 
 }
 

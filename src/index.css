@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Grandiflora+One&family=Roboto:wght@300&display=swap');
 
 * {
   margin: 0;
@@ -7,6 +8,7 @@
   list-style: none;
   text-decoration: none;
   font-family: 'Grandiflora One', cursive;
+  font-family: 'Roboto' 'EB Garamond', sans-serif, serif;
   color: white;
 }
 

@@ -41,6 +41,6 @@ const Homepage = () => {
 
     </section>
   )
-}
+} 
 
 export default Homepage

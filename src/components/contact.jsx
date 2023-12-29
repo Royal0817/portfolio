@@ -39,7 +39,7 @@ const Contact = () => {
     }
   }, [message]);
 
-
+ 
   return (
     <section id='contact'>
       <h1 className='contact_header'>Send an email</h1>

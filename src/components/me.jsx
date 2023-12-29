@@ -1,14 +1,12 @@
-import SlidingDiv from './slidingdiv';
 
 const IntroPage = () => {
 
   return (
     <section id='intro'>
-      <SlidingDiv className='headline' />
+      <h1 className='me_header'>Who am I?</h1>
 
       <div className="background">
-        Hello! I'm a dynamic individual with a diverse background living in 
-        Washington D.C.
+        Hello! I'm a dynamic individual with a diverse background living in Washington D.C.
         I embody a unique blend of skills and experiences.
         My journey as a Marine veteran has instilled in me discipline, resilience, 
         and a profound sense of duty.
@@ -18,7 +16,8 @@ const IntroPage = () => {
         As a mixologist, I craft not only cocktails but also memorable experiences, 
         infusing creativity into every concoction. 
         Through my varied pursuits, 
-        I seek to contribute to positive change, whether by creating delightful libations, solving complex technical challenges, 
+        I seek to contribute to positive change, whether by creating delightful libations, 
+        solving complex technical challenges, 
         or advocating for a sustainable future. 
       </div>
     </section>
