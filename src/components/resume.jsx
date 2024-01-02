@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from '../images/Resume_PDF_format.pdf'
+import CV from '../images/Resume_1:2:24.jpg'
 
 const openPdfInNewTab = () => {
   window.open(CV, '_blank');
