@@ -14,7 +14,7 @@ function Galaxy() {
 
   return (
     <div className={`fade-in ${isVisible ? 'fade-in-visible' : ''}`}>
-          <video autoPlay={true} loop={true} muted={true}>
+          <video autoPlay={true} loop={true} muted={true} defaultmuted={true} playsinline={true}>
             <source src={vid1} type="video/mp4" />
               Your browser does not support the video tag.
         </video>
