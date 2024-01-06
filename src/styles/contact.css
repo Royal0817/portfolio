@@ -24,6 +24,7 @@
 }
 
 input {
+    color: black;
     border: 1px solid black;
     width: 80%;
 }
@@ -123,9 +124,7 @@ background: none;
     .contact_container{
         width: 100%;
     }
-    input {
-        color: black;
-    }
+   
 
     input, textarea {
         
