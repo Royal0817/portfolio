@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.046e7cf5.css",
+    "main.css": "/static/css/main.3bcdbd72.css",
     "main.js": "/static/js/main.0a4f1f24.js",
     "static/media/StoryZ_Video.mp4": "/static/media/StoryZ_Video.312cd878a32fa0d25baa.mp4",
     "static/media/941F95DA-8595-4469-8A79-2C8CE46A02DE.mp4": "/static/media/941F95DA-8595-4469-8A79-2C8CE46A02DE.1e225d88499b45f21851.mp4",
@@ -12,11 +12,11 @@
     "static/media/psLogo.png": "/static/media/psLogo.7c242c92b511b9e6b859.png",
     "static/media/figLogo.png": "/static/media/figLogo.08b67cec6534af3632cb.png",
     "index.html": "/index.html",
-    "main.046e7cf5.css.map": "/static/css/main.046e7cf5.css.map",
+    "main.3bcdbd72.css.map": "/static/css/main.3bcdbd72.css.map",
     "main.0a4f1f24.js.map": "/static/js/main.0a4f1f24.js.map"
   },
   "entrypoints": [
-    "static/css/main.046e7cf5.css",
+    "static/css/main.3bcdbd72.css",
     "static/js/main.0a4f1f24.js"
   ]
 }
