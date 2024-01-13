@@ -25,6 +25,10 @@ h1.service-header {
   transition: transform 1s ease-in;
 } 
 
+.container2{
+  margin-left: 6rem;
+}
+
 h4.platforms {
   font-size: 1.2rem;
   display: flex;

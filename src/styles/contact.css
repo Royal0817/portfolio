@@ -2,7 +2,7 @@
 #contact {
     text-align: center;
     height: 60vh;
-   
+    margin-bottom: 8rem;
 }
 .contact_container{
     width: 33rem;
@@ -14,10 +14,11 @@
 }
 
 .contact_header {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 input {
+    background-color: #1C2025;
     color: black;
     border: 1px solid black;
     width: 80%;
@@ -32,6 +33,7 @@ input.bottom {
 }
 
 input, textarea {
+    font-size: 1rem;
     text-align: center;
     padding: 1.5rem;
 }

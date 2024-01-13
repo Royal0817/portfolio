@@ -70,7 +70,7 @@ const Services = () => {
         </div>
 
         <div className='container2'>
-          <h4 className='contHeader'>What i can do</h4> 
+          <h4 className='contHeader'>What I can do</h4> 
 
           <ul className="services-offered">
             <li>Creating/Managing Databases</li>
