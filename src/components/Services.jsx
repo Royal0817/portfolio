@@ -11,8 +11,8 @@ import Bars from './languagesDivs';
 const Services = () => {
   const [animationActivated, setAnimationActivated] = useState(false);
 
-  const SCROLL_THRESHOLD_START = 1530;
-  const SCROLL_THRESHOLD_END = 2100;
+  const SCROLL_THRESHOLD_START = 350;
+  const SCROLL_THRESHOLD_END = 1050;
 
   const handleScroll = () => {
     if (window.scrollY > SCROLL_THRESHOLD_START && window.scrollY <= SCROLL_THRESHOLD_END) {

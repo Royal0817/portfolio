@@ -24,7 +24,7 @@ const Homepage = () => {
           </div> 
 
           <div className="break2">
-            designing user-friendly solutions
+            Building user-friendly solutions
           </div>
 
           <div className="break3">

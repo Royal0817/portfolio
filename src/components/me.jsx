@@ -11,6 +11,7 @@ const IntroPage = () => {
         My journey as a Marine veteran has instilled in me discipline, resilience, 
         and a profound sense of duty.
         As a software engineer, I thrive where my problem-solving abilities and passion for innovation come to the forefront. 
+        <br />
         Beyond the realms of coding, I am a dedicated climate activist, 
         driven by a deep concern for our planet's well-being. 
         As a mixologist, I craft not only cocktails but also memorable experiences, 

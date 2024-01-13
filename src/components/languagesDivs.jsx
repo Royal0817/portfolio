@@ -7,7 +7,7 @@ const Bars = () => {
 
   useEffect(() => {
     function handleScroll() {
-      if (window.scrollY > 1500) {
+      if (window.scrollY > 350) {
         setExpanded(true);
       } else {
         setExpanded(false);
@@ -15,7 +15,7 @@ const Bars = () => {
     };
 
     window.addEventListener('scroll', handleScroll);
-
+ 
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
