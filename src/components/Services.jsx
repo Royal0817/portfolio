@@ -70,14 +70,16 @@ const Services = () => {
         </div>
 
         <div className='container2'>
+          <h4 className='contHeader'>What i can do</h4> 
+
           <ul className="services-offered">
-            <li>UX/UI Design</li>
-            <li>Database Creating/Management</li>
-            <li>Business Website</li>
-            <li className='Ai'>Art with Artificial Intelligence</li>
+            <li>Creating/Managing Databases</li>
+            <li>Company Websites</li>
+            <li className=''>Art with Artificial Intelligence</li>
             <li>Google API's</li>
             <li>Databases</li>
-            <li>Blogs</li>  
+            <li>Agile Development</li>  
+            <li>UX/UI Design</li>
           </ul>
         </div>
         {/* shows language profeciency bars when scrolled to */}
