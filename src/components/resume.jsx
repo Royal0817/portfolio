@@ -12,7 +12,7 @@ const Resume = () => {
         <span>Send Email</span> 
       </button>
 
-      <button onClick={openPdfInNewTab} className='btn'>
+      <button type='button' onClick={openPdfInNewTab} className='btn'>
         <span>Open Resume in browser</span>
       </button>
     </div>
