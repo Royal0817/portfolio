@@ -12,10 +12,12 @@ const Footer = () => {
       <div className="container-experience">
         <div className='mush-content'>
           <h2>Let's build your app</h2>
+          <a href="https://royal0817.github.io/Project-1/">
           <video autoPlay loop muted className='video-mushroom'>
             <source src={mushVid} type="video/mp4" />
             Your browser does not support the video tag.
           </video>    
+          </a>
         </div>
         <Contact />
       </div>

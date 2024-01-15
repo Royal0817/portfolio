@@ -21,7 +21,7 @@ const Contact = () => {
         'IcyKnpon5aBsuBGRI'
       );
       console.log(result.text);
-      setMessage('Email sent successfully!');
+      setMessage('Email sent!');
       form.current.reset();
     } catch (error) {
       console.error(error);
