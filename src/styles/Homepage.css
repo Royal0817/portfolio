@@ -132,9 +132,10 @@
     }
 
     .home1 video {
+      margin-left: .6rem;
       margin-top: 3rem;
       height: 95%;
-      width: 75%
+      width: 95%
     }
   
     .home2 {
