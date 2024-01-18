@@ -19,12 +19,13 @@ h4.profeciency{
 h5 {
   text-indent: 1rem;
   font-size: .8rem;
-  background-color: #145252;
-  border: 1px solid #081c15;
+  background-color: #0f0f1a;
+  border: 1px solid #001f4d;
   border-radius: .8rem;
   padding: 7.5px 7.5px ;
   /* box-shadow: inset 5px 5px 15px #051019, inset -5px -5px 15px #13212b; */
-  transition: box-shadow 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  box-shadow: 1px 1px 1px #051019, -5px -5px 15px #13212b; 
   color: #f1faee;
 }
  
