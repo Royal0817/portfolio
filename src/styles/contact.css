@@ -21,6 +21,7 @@ input {
     background-color: #1C2025;
     border: 1px solid black;
     width: 80%;
+    text-align: center;
 }
 
 input:-webkit-autofill,
@@ -44,17 +45,21 @@ input.bottom {
 
 input, textarea {
     font-size: 1rem;
-    text-align: center;
     padding: 1.5rem;
 }
 
 textarea {
+    text-align: left;
     margin: 1rem;
     width: 80%;
     border-radius: 1rem;
     background-color: #1C2025;
     color: white;
     height: 11rem;
+}
+
+textarea::placeholder {
+    text-align: center
 }
 
 
