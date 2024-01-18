@@ -15,6 +15,8 @@
   .home1 video {
     border-radius: 49%; 
     height: 95%;
+    width: 100%;
+    object-fit: cover;
     animation: glow 3s infinite;
     transition: opacity .7s; 
     margin-top: 1rem;
