@@ -142,6 +142,7 @@
       margin-top: 5rem;
       margin: 0;
       height: 25vh;
+      margin-left: -1rem;
     }
   
     .header, .break1, .break2, .break3 {
@@ -153,7 +154,6 @@
       
       margin-top: 0;
       height: 3rem;
-      
       font-size: 1.8rem;
     }
     
