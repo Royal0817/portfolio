@@ -20,8 +20,7 @@ h1 {
 /* --------------- small screens ------------------- */
 @media screen and (max-width: 600px) {
     #Intro {
-        height: 90vh;
-        margin: 0;
+        height: 110vh;
     }
     .background {
         width: 80%;
