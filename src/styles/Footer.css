@@ -57,8 +57,18 @@ h2 {
       height: 4rem;
       font-size: 2.5rem;
     }
+    .mush-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h2 {
+      margin-top: -2rem;
+    }
+
     .video-mushroom {
-      margin-left: 3.5rem;
+      justify-content: center;
       width: 200px;
       height: 200px;
     }

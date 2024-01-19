@@ -110,8 +110,7 @@ h3 {
    @media screen and (max-width: 600px){
      #services { 
       display: none;
-      /* height: auto;
-      margin-top: -70rem; */
+      width: 100%;
      }
 
      .services-container {

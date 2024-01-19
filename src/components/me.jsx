@@ -4,7 +4,7 @@ const IntroPage = () => {
   return (
     <section id='intro'>
       <h1 className='me_header'>Who am I?</h1>
-
+    
       <div className="background">
         Hello! I'm a dynamic individual with a diverse background living in Washington D.C.
         I embody a unique blend of skills and experiences.

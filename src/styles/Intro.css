@@ -1,13 +1,13 @@
 #Intro{
     height: 120vh;
-    margin: 2rem;   
 }
 
 .background {
     height: 75vh; 
     width: 75vh;
     position: relative;
-    left: 25rem;
+    justify-content: center;
+    left: 26rem;
     top: 5rem;
     font-size: 1.2rem; 
 }
@@ -19,14 +19,13 @@ h1 {
 
 /* --------------- small screens ------------------- */
 @media screen and (max-width: 600px) {
-    #intro {
+    #Intro {
+        height: 90vh;
         margin: 0;
     }
     .background {
-        height: 75vh; 
-        width: 100%;
-        position: relative;
-        left: 0rem;
+        width: 80%;
+        left: 3rem;
         top: 4rem;
         font-size: 1rem; 
         
@@ -34,7 +33,6 @@ h1 {
 
     .me_header {
         font-size: 2.5rem;
-    
     }
 
    
