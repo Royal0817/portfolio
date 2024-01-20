@@ -7,7 +7,7 @@ const Bars = () => {
 
   useEffect(() => {
     function handleScroll() {
-      if (window.scrollY > 350) {
+      if (window.scrollY > 400) {
         setExpanded(true);
       } else {
         setExpanded(false);
@@ -23,21 +23,30 @@ const Bars = () => {
  
   return (
     <div className="bar-holder">
-      <h4 className='profeciency'>Language Profeciency</h4>
+      {/* <h4>Language Profeciency</h4> */}
 
-      <article className={`expanding-container ${expanded ? 'expanded' : ''}`}>
-        <h5 className='html'>HTML</h5>
-        <h5 className='javascript'>Javascript</h5>
-        <h5 className='react'>React</h5>
-        <h5 className='node'>Node.js</h5>
-        <h5 className='css'>CSS/SCSS</h5>
-        <h5 className='mongo'>MongoDB</h5>
-        <h5 className='python'>Python</h5>
-        <h5 className='post'>PostGre</h5> 
-        <h5 className='heroku'>Heroku/Netlify</h5>
-        <h5 className='nosql'>NoSQL</h5>
-        <h5 className='express'>Express</h5>
-      </article>
+          <ul className='viz'>
+            <li className='novice lvl'>Novice</li>
+            <li className='intermediate lvl' >Intermediate</li>
+            <li className='proficient lvl'>Proficient</li>
+            <li className='expert lvl'>Advaced</li>
+          </ul>
+      <section className={`expanding-container ${expanded ? 'expanded' : ''}`}>
+
+        <ul className='percent'>
+          <li className='html lang'>HTML</li>
+          <li className='javascript lang'>Javascript</li>
+          <li className='react lang'>React</li>
+          <li className='node lang'>Node.js</li>
+          <li className='css lang'>CSS/SCSS</li>
+          <li className='mongo lang'>MongoDB</li>
+          <li className='python lang'>Python</li>
+          <li className='heroku lang'>GitHub-Pages/Netlify/Heroku</li>
+          <li className='post lang'>PostGre</li> 
+          <li className='nosql lang'>NoSQL</li>
+          <li className='express lang'>Express</li>
+        </ul>
+      </section>
     </div>
   );
 }

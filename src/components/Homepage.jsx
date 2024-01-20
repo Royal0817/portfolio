@@ -31,11 +31,10 @@ const Homepage = () => {
             to complex problems for the web  
           </div>
 
+
           <div className="classname socialBar">
-
-          <Social />
+            <Social />
           </div>
-
 
       </div>
 
