@@ -9,10 +9,10 @@ function App() {
 
   return (
     <>
-    <Homepage />
-    <Services />
-    <Intro />
-    <Footer />
+      <Homepage />
+      <Services />
+      <Intro />
+      <Footer />
     </>
   );
 }

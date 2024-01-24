@@ -3,7 +3,7 @@ import emailjs from 'emailjs-com';
 import '../styles/contact.css';
 import Resume from './resume';
 
-const SERVICE_ID = process.env.REACT_APP_SERVICE_ID
+const SERVICE_ID = 'service_a77l30q'
 
 const Contact = () => {
   const form = useRef();
